@@ -1,0 +1,12 @@
+Controller
+- handles http requests (e.g. get and post) and sends responses
+- uses annotations like @GetMapping and @PostMapping
+
+Service
+- handles all business logic (includes things like checking if a user exists within the database)
+
+Repository 
+- handles database operations 
+
+Configuration
+- holds bean definitions, things spring should create and manage when the app starts
