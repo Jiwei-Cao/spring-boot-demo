@@ -3,10 +3,10 @@ Controller
 - uses annotations like @GetMapping and @PostMapping
 
 Service
-- handles all business logic (includes things like checking if a user exists within the database)
+- handles all business logic (includes things like adding a new user to the database)
 
 Repository 
-- handles database operations 
+- handles database operations (e.g. checking if a user exists within the database)
 
 Configuration
 - holds bean definitions, things spring should create and manage when the app starts
